@@ -10,6 +10,11 @@ const coinSchema = mongoose.Schema(
       type: String,
       required: true,
     },
+    fullName: {
+      type: String,
+      required: true,
+      default: ""
+    },
     category: {
       type: String,
     },
